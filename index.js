@@ -50,9 +50,12 @@ function writeToFile(fileName, answers) {
 ${answers['description']}
 ## Installation Instructions
 ${answers['installationInstructions']}
-User Information: ${answers['userInformation']}
-Contribution Guidelines: ${answers['contributionGuidelines']}
-Test Instructions: ${answers['testInstructions']}`
+## User Information
+${answers['userInformation']}
+## Contribution Guidelines
+${answers['contributionGuidelines']}
+## Test Instructions
+${answers['testInstructions']}`
     );
 }
 
