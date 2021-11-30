@@ -1,23 +1,23 @@
-# asdfjkl;
+# README generator demo
 ## Description
-Watchumg
+The index.js script assists the user in the creation of a README.me file.
 ## Table of Contents
 - [Installation Instructions](#installation-instructions)
-- [User Information](#user-information)
+- [Usage Information](#usage-information)
 - [Contribution Guidelines](#contribution-guidelines)
 - [Test Instructions](#test-instructions)
 - [License](#license)
 - [Questions](#questions)
 ## Installation Instructions
-humpty
-## User Information
-dumpty
+It is necessary to create a file-folder entitled "generated-readme" in the same location as index.js is found.
+## Usage Information
+Invoke this script by entering "node index" in a bash environment and follow the prompts. Once completed, the README.md file can be found in the "generated-readme" folder.
 ## Contribution Guidelines
-axion
+N/A
 ## Test Instructions
-rewind
+N/A
 ## License
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 ## Questions
-### Github account: www.github.com/kencford
-### Email: a@b.com
+### Github account: www.github.com/jjones
+### Email: johnjones@email.com

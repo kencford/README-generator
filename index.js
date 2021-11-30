@@ -27,7 +27,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'userInformation',
+        name: 'usageInformation',
         message: 'Usage Information:'
     },
     {
@@ -67,7 +67,7 @@ const promptUser = () => {
 function writeToFile(fileName, answers) {
     if(answers['description'] == "") {answers['description'] = "N/A";};
     if(answers['installationInstructions'] == "") {answers['installationInstructions'] = "N/A";};
-    if(answers['userInformation'] == "") {answers['userInformation'] = "N/A";};
+    if(answers['usageInformation'] == "") {answers['usageInformation'] = "N/A";};
     if(answers['contributionGuidelines'] == "") {answers['contributionGuidelines'] = "N/A";};
     if(answers['testInstructions'] == "") {answers['testInstructions'] = "N/A";};
 
@@ -95,15 +95,15 @@ function writeToFile(fileName, answers) {
 ${answers['description']}
 ## Table of Contents
 - [Installation Instructions](#installation-instructions)
-- [User Information](#user-information)
+- [Usage Information](#usage-information)
 - [Contribution Guidelines](#contribution-guidelines)
 - [Test Instructions](#test-instructions)
 - [License](#license)
 - [Questions](#questions)
 ## Installation Instructions
 ${answers['installationInstructions']}
-## User Information
-${answers['userInformation']}
+## Usage Information
+${answers['usageInformation']}
 ## Contribution Guidelines
 ${answers['contributionGuidelines']}
 ## Test Instructions
