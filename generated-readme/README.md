@@ -1,6 +1,6 @@
-# README generator demo
+# README Generator
 ## Description
-The index.js script assists the user in the creation of a README.me file.
+This assists the user in the creation of a README.md file.
 ## Table of Contents
 - [Installation Instructions](#installation-instructions)
 - [Usage Information](#usage-information)
@@ -9,9 +9,9 @@ The index.js script assists the user in the creation of a README.me file.
 - [License](#license)
 - [Questions](#questions)
 ## Installation Instructions
-It is necessary to create a file-folder entitled "generated-readme" in the same location as index.js is found.
+Create a directory "generated-readme" in the same directory as "index.js" is found.
 ## Usage Information
-Invoke this script by entering "node index" in a bash environment and follow the prompts. Once completed, the README.md file can be found in the "generated-readme" folder.
+Invoke the script by entering "node index" in a bash environment. Once completed, the README.md file can be found in the "generated-readme" directory folder.
 ## Contribution Guidelines
 N/A
 ## Test Instructions

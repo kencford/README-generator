@@ -13,7 +13,7 @@ It is necessary to create a file-folder entitled "`generated-readme`" below the 
 ## Usage Information
 Invoke this script by entering the following command in a bash environment: "`node index`"  and then follow the prompts. Once completed, the README.md file can be found in the "`generated-readme`" folder.
 
-A video entitled README.wmv found in the same directory as index.js demonstrates the flow through of this application.
+Watch this how-to-use Vimeo-hosted video:: https://vimeo.com/653511167
 ## Contribution Guidelines
 N/A
 ## Test Instructions
